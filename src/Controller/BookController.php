@@ -8,13 +8,33 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class BookController extends AbstractController
 {
+    // Affiche la liste des livres
+    //Index
     /**
-     * @Route("/book", name="book")
+     * @Route("/books", name="book")
      */
     public function index(): Response
     {
         return $this->render('book/index.html.twig', [
-            'controller_name' => 'BookController',
+
         ]);
     }
+
+    //Création d'un livre dans la bdd
+    //Create
+    //...
+
+    //Afficher le détail d'un livre
+    //Read/Retrieve
+
+    //Mofier un livre
+    //Update
+    //...
+
+    //Supprimer un livre
+    //Delete
+    //...
+
+
+
 }

@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@symfony/stimulus-bridge": "^2.0.0",
+    "@symfony/webpack-encore": "^1.1.2",
+    "bootstrap": "^4.6.0",
+    "stimulus": "^2.0.0",
+    "webpack-notifier": "^1.6.0"
+  },
+  "dependencies": {
+    "jquerry": "0.0.1-security",
+    "popper.js": "^1.16.1",
+    "remixicon": "^2.5.0"
+  }
+}
